@@ -88,12 +88,14 @@ for itr in range(0, 5):
 
         for v in g.neighbors(u):
             if v not in activated:
-                rand = random.uniform(0, 0.5)
+                rand = random.uniform(0, 1)
                 if rand < g[u][v]['weight']:
                     q.put(v)
                     activated.add(v)
 
     print("Steps - " + str(steps))
+    print("No of activated nodes - " + str(len(activated)))
+    print("Activated nodes - " + str(activated))
     print()
 
 print('\n----------------------------------------------------------------------------------------------------------------------\n')
