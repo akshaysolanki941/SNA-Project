@@ -8,7 +8,7 @@ import numpy.random
 import pylab
 import random
 
-g = read_edgelist("A:\Study\Semester 6\SNA\project\dummy.txt",
+g = read_edgelist("dataset1.txt",
                   create_using=nx.Graph(), nodetype=int)
 
 print('\n----------------------------------------------------------------------------------------------------------------------\n')
