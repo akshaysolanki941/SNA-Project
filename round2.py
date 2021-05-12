@@ -94,7 +94,6 @@ for itr in range(0, 5):
                     activated.add(v)
 
     print("Steps - " + str(steps))
-    print("No of activated nodes - " + str(len(activated)))
     print("Activated nodes - " + str(activated))
     print()
 
